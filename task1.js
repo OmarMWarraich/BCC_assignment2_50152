@@ -1,4 +1,7 @@
-let city = prompt('Please enter your city:');
+let city = prompt('Please enter your city:').toLowerCase();
 
-if (city === 'Karachi');
-alert('Welcome to city of lights');
+if (city === 'karachi'){
+    alert('Welcome to city of lights')
+} else{
+    alert("You are living in a city")
+}
