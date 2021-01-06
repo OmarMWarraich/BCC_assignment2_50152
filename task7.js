@@ -21,3 +21,6 @@ else if (Operation == '/') {
 else if (Operation == '%') {
     alert(`The modulus of the two number is ${fistNumber % SecondNumber}` )
 } 
+else{
+    alert("Please provide the correct operator!")
+}
